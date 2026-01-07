@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="jio" class="com.example.demo.beans.Sim">
+            <property name="name" value="Jio"/>
+        <property name="number" value="123"/>
+
+    </bean>
+
+    <bean id="Airtel" class="com.example.demo.beans.Sim">
+        <constructor-arg name="name" value="Airtel"/>
+        <constructor-arg name="number" value="7558448762"/>
+<!--       <property name="name" value="Airtel"/>-->
+<!--        <property name="number" value="283642364"/>-->
+
+    </bean>
+
+
+
+
+
+</beans>
