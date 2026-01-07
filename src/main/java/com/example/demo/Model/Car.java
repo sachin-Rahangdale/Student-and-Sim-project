@@ -21,7 +21,7 @@ public class Car {
     public Car() {
 
     }
-
+// constructor
     public Car(String name, String brand) {
         Name = name;
         Brand = brand;
