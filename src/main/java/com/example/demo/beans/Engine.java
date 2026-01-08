@@ -3,12 +3,12 @@ package com.example.demo.beans;
 public class Engine {
     private String Name;
     private String fuel;
-    private String hp;
 
-    public Engine(String name, String fuel, String hp) {
+
+    public Engine(String name, String fuel) {
         Name = name;
-        this.fuel = fuel;
-        this.hp = hp;
+
+
     }
 
     public Engine() {
@@ -31,20 +31,14 @@ public class Engine {
         this.fuel = fuel;
     }
 
-    public String getHp() {
-        return hp;
-    }
 
-    public void setHp(String hp) {
-        this.hp = hp;
-    }
 
     @Override
     public String toString() {
         return "Engine{" +
                 "Name='" + Name + '\'' +
                 ", fuel='" + fuel + '\'' +
-                ", hp='" + hp + '\'' +
+
                 '}';
     }
 }

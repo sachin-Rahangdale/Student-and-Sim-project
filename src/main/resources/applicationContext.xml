@@ -17,6 +17,12 @@
 
     </bean>
 
+<!--    <bean id="Kirloskar" class="com.example.demo.beans.Engine">-->
+<!--        <property name="name" value="Jio"/>-->
+<!--        <property name="number" value="123"/>-->
+
+<!--    </bean>-->
+
 
 
 
